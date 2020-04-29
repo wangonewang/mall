@@ -1,9 +1,30 @@
 <template>
-  <div id="app">
-    
-  </div>
+ <div id="app">
+   <router-view></router-view>
+   <main-tab-bar></main-tab-bar>
+ </div>
 </template>
-
-<style>
-
+<script>
+import MainTabBar from 'content/mainTabBar/MainTabBar'
+ export default {
+   name:'app',
+   data () {
+     return {
+ 
+     }
+   },
+    components: {
+     MainTabBar
+   },
+   computed:{
+ 
+   },
+   methods:{
+ 
+   },
+  
+ }
+</script>
+<style scoped>
+  @import 'assets/css/base.css'
 </style>
