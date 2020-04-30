@@ -1,6 +1,6 @@
 <template>
  <div>
-   分类
+   <h2>分类</h2>
  </div>
 </template>
 <script>
